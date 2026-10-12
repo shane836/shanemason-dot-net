@@ -12,7 +12,9 @@
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.5}
 main{max-width:480px;min-height:100vh;min-height:100svh;margin:0 auto;padding:64px 28px 40px;display:flex;flex-direction:column}
 h1{font-size:34px;line-height:1.15;font-weight:normal;letter-spacing:-.4px;margin:0 0 10px}
-.role{margin:0;font-size:16px;color:var(--muted)}
+.role{margin:0;font-size:16px;color:var(--muted);display:flex;align-items:center;gap:16px}
+.role-mark{width:20px;flex-shrink:0;display:flex;justify-content:center;color:var(--ink)}
+.mep-mark{width:26px;height:auto;flex-shrink:0}
 .links{list-style:none;margin:40px 0 0;padding:0;border-top:1px solid var(--rule)}
 .links a{display:flex;align-items:center;gap:16px;min-height:64px;padding:12px 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none}
 .links a:hover .label{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
@@ -30,7 +32,7 @@ h1{font-size:34px;line-height:1.15;font-weight:normal;letter-spacing:-.4px;margi
 <main>
 <header>
 <h1>Shane Mason</h1>
-<p class="role">Managing Partner,<br>Mason Equity Partners</p>
+<p class="role"><span class="role-mark"><svg class="mep-mark" viewBox="770.6 256.2 1415.6 848.7" fill="currentColor" role="img" aria-label="Mason Equity Partners logo"><path d="M 1311.308594 489.902344 L 1311.308594 1029.605469 C 1126.09375 1040.109375 969.339844 1067.726562 873.085938 1104.882812 L 770.597656 1104.882812 L 1085.644531 1031.070312 L 1085.644531 625.183594 Z M 1311.308594 489.902344"/><path d="M 2186.195312 1104.882812 L 2083.722656 1104.882812 C 1987.460938 1067.730469 1830.707031 1040.109375 1645.503906 1029.609375 L 1645.503906 489.902344 L 1871.15625 625.183594 L 1871.15625 1031.070312 Z M 2186.195312 1104.882812"/><path d="M 1570.996094 256.210938 L 1570.996094 1026.339844 C 1540.691406 1025.414062 1509.777344 1024.929688 1478.398438 1024.929688 C 1475.207031 1024.929688 1472.015625 1024.929688 1468.832031 1024.980469 L 1468.832031 612.894531 L 1366.636719 526.804688 L 1366.636719 330.007812 Z M 1570.996094 256.210938"/></svg></span><span>Managing Partner,<br>Mason Equity Partners</span></p>
 </header>
 
 <ul class="links">
